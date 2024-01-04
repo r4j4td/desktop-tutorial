@@ -16,8 +16,14 @@ public class datatypes {
         System.out.println(intData);
         System.out.println(fl);
         System.out.println(dl);
+        // non-primitive = derived
+        // String,array,classes etc;
+        String st = "Hello World";
+        System.out.println(st);
 
-
+    // array
+    int result[] = {20,30,40};
+    System.out.println(result[0]);
 
     }
 }
