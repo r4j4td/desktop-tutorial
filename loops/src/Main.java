@@ -18,10 +18,15 @@ public class Main {
 //        }   while (i<11);
 
 //        print sum of first n natural number
-        int sum = 0;
-        for(int i=1; i<=n; i++){
-            sum = sum + i;
+//        int sum = 0;
+//        for(int i=1; i<=n; i++){
+//            sum = sum + i;
+//        }
+//        System.out.println(sum);
+
+//        print the table of a number input by the user
+        for(int i=1; i<11; i++){
+            System.out.println(i*n);
         }
-        System.out.println(sum);
     }
 }
